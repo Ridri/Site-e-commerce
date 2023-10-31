@@ -1,0 +1,164 @@
+/* App.css */
+
+/*
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url('https://cdn.discordapp.com/attachments/1164179015154810995/1167094038420262983/image1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.titre {
+font-size: px;
+}
+
+.Navigation {
+  background-color: #green;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: green;
+  align-items: center;
+}
+
+.Navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.Navigation a:hover {
+  text-decoration: underline;
+}
+
+.liste-produits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.liste-produits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.liste-produits li {
+  text-align: center;
+}
+
+.liste-produits img {
+  max-width: 100%;
+}
+
+.footer1 {
+background-color: ; /* 
+color: ; 
+padding: 20px;
+text-align: center
+}
+
+.footer2 {
+  background-color: #333;
+  color: white;
+texte-décoration: none;
+  margin: ;
+}
+
+.footer h1 {
+  font-size: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.logo-jacquemus {
+  width: 10px;
+}
+
+.logo-kombini {
+  width: 10px;
+}
+
+form {
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+}
+*/
+
+.logo {
+
+}
+
+.logo-kombini {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-jacquemus {
+  margin: 0;
+  padding: 0;
+}
+
+.ListeProduits-css {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px; 
+  height: 500px; 
+
+
+}
+
+
+
+
+.ListeProduits-css img {
+
+}
+
+.footer-css {
+  background-color: #f4f4f4;
+  padding: 0;
+}
+
+.footer-css h1 {
+  font-size: 1.5em;
+  color: red;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aligned-h1 {
+  text-align: center; /* Alignement horizontal au centre */
+  vertical-align: middle; /* Alignement vertical au milieu (peut nécessiter un conteneur avec une hauteur spécifiée) */
+}
+
+
