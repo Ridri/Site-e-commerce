@@ -3,7 +3,7 @@ function Upcycling() {
   return (
     
     <div>
-      <h1><a href="../Description">Konbini le Upcyclingz</a></h1>
+      <h1><a href="../Description">Konbini le Upcycling</a></h1>
     </div>
   );
 };

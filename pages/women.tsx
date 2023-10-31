@@ -6,7 +6,6 @@ function women() {
   return (
     <>
       <h2>women</h2>
-      <h3>ONE PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPIECE</h3>
       <div>
         <HeaderWomen />
         <ProductList products={mockProducts}/>
