@@ -9,7 +9,7 @@ function Description() {
       </div>
       
       <div>
-        <p>En collaborant main dans la main avec des artistes de la Pop culture et pour la premiere collection qui se nomme Upcycling, c’est Jacquemuse qui va etre mandaté pour son talent.</p>
+        <p>En collaborant main dans la main avec des artistes de la Pop culture et pour la premiere collection qui se nomme Upcycling, c’est Jacquemus qui va etre mandaté pour son talent.</p>
         <br></br>
       </div>
       
