@@ -61,8 +61,8 @@ a {
 
 .categorie {
   padding: 70px;
-  padding-top: 100px;
-  margin-left: 40px;
+  margin
+  width: 2000px;  
 }
 
 .categorie img {
@@ -98,9 +98,6 @@ a {
   border-radius: 10px;
 }
 
-/*
-'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-*/
 
 .image-upcycling {
 
@@ -110,12 +107,8 @@ a {
 }
 
 .color-nav {
+	color: #e6e6e6;
 	font-size: 1.2em;
-}
-
-.color-nav-hover {
-	font-size: 1.2em;
-	color: #000000;
 }
 
 .texte-droite {
@@ -143,78 +136,6 @@ a {
 
 }
 
-.categorie h1 {
-  text-align: center;
-  line-height: 1.5;
-  font-family: "Arial", sans-serif;
-  font-size: 36px;
-  margin-right: 120px;
-}
 
 
-.title {
-  font-family: 'Arial', sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
 
-.image-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.image {
-  max-width: 40%;
-}
-
-.text {
-  font-family: 'Arial', sans-serif;
-  font-size: 20px;
-}
-
-/*
-.titre-categorie {
-	text-align: center;
-	font-size: 1.8em;
-}
-*/
-
-.clicked {
-  color: white; /* Changer la couleur en rouge lorsqu'il est cliqué */
-  cursor: pointer; /* Pour montrer que le texte est cliquable */
-}
-
-/* Styles par défaut */
-p {
-  color: black; /* Couleur par défaut du texte */
-  cursor: pointer; /* Pour montrer que le texte est cliquable */
-}
-
-.description-css {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.description-css h1 {
-  font-size: 32px;
-  font-family: 'Lora', serif;
-  text-align: center;
-  align-items: center; /* Centrage vertical */
-  justify-content: center; /* Centrage horizontal */
-}
-
-.description-css p {
-  font-family: 'Playfair Display', serif;
-  font-size: 24px;
-}
-
-.panier-css {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 52px;
-  align-items: center;
-  justify-content: center;
-}

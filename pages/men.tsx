@@ -12,7 +12,7 @@ function Men() {
 	const [isDatabaseLoaded, setIsDatabaseLoaded] = useState(false);
 
 	  useEffect(() => {
-		db.collection('produits').onSnapshot(snapshot => {
+		db.collection('produits').where('categorie', '==', 'Homme').onSnapshot(snapshot => {
 		  //const fetchedProducts = snapshot.docs.map(doc => doc.data());
 		  const fetchedProducts = snapshot.docs.map(doc => ({
 			id: doc.id,
@@ -26,7 +26,6 @@ function Men() {
 	
   return (
      <>
-      <h2>men</h2>
       <div>
         <HeaderMen />
 		<ProductList products={isDatabaseLoaded ? products : mockProducts} />
