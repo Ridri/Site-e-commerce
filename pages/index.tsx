@@ -9,7 +9,6 @@ import Categorie from '../containers/Categorie';
 import Upcycling from '../containers/Upcycling';
 
 
-
 function Home() {
 
   const [products, setProducts] = useState([]);
@@ -27,15 +26,18 @@ function Home() {
       setIsDatabaseLoaded(true);
     });
   });
-  
+
   return (
     <>
-      <Header />
-      <Categorie />
-      {/*<ProductList products={isDatabaseLoaded ? products : mockProducts} />*/}
-      <Upcycling />
-      
+      <div className="relief">
+        <Header />
+        <Categorie />
+        {/*<ProductList products={isDatabaseLoaded ? products : mockProducts} />*/}
+        <Upcycling />
+        <br />
+      </div>
       <Footer />
+
     </>
   );
 }

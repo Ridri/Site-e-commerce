@@ -14,14 +14,6 @@ function HeaderCol() {
         <p className="mt-6 text-lg text-white">
           Anim aute id magna aliqua ad ad non deserunt sunt.
         </p>
-        <div className="mt-10">
-          <a
-            href="#"
-            className="bg-indigo-600 text-white py-2 px-4 rounded inline-flex items-center"
-          >
-            Get started
-          </a>
-        </div>
       </div>
     </div>
   );

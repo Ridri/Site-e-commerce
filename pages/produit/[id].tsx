@@ -40,10 +40,12 @@ function ProduitDetail() {
         <>
           <h1 className="text-2xl font-bold mb-4 w-full text-center">{displayProduct.name}</h1>
           <div className="w-full mb-4 overflow-hidden rounded-md flex justify-center items-center">
-            <img src={displayProduct.imageSrc} className="object-cover object-center" />
+            <img src={displayProduct.imageSrc} className="image-produit object-cover object-center" />
           </div>
           <div className="flex justify-between items-center w-full">
             <div className="text-lg font-semibold">
+				Description: {displayProduct.description}
+				<br/>
 				Prix: <span className="text-xl text-blue-600">{displayProduct.price}</span>
 			</div>
           </div>
