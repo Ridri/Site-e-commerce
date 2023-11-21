@@ -22,8 +22,8 @@ function Header() {
       <div className="image-collection">
       <div className="ellipse"/>
         <div style={{width: '100%', height: '100%', position: 'relative'}}>
-      <div style={{width: 570, height: 80,right:680, top: 490, position: 'absolute', background: '#008000', borderRadius: 9999}} />
-      <div style={{left: 0,right:70, top: 500, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 38, fontFamily: 'Palatino', fontWeight: '700', wordWrap: 'break-word'}}>
+      <div style={{width: 570, height: 80,right:630, top: 490, position: 'absolute', background: '#cbfcbf', borderRadius: 9999}} />
+      <div style={{left: 720, top: 500, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 38, fontFamily: 'Palatino', fontWeight: '700', wordWrap: 'break-word'}}>
     <div>
 		  <a href="/collection"><p
           onMouseEnter={handleMouseEnter}

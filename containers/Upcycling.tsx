@@ -8,10 +8,10 @@ function Upcycling() {
       <div className="texte">
         <h1> Konbini et le Upcycling</h1>
         <br />
-        <p >Le Upcycling est l'action de récupérer des matériaux non-utilisé afin de les transformer en matériaux de qualité ou d'utilité supérieur.
+        <p >L'Upcycling est l'action de récupérer des matériaux non-utilisé afin de les transformer en matériaux de qualité ou d'utilité supérieure.
           <br />
 
-          pour en savoir plus cliquer sur l'image
+          Pour en savoir plus, cliquez sur l'image.
         </p>
       </div>
     </div>
