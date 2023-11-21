@@ -3,6 +3,8 @@ import HeaderBags from '../containers/HeaderBags';
 import ProductList from '../containers/ProductList';
 import { mockProducts } from '../db/productsDB'; 
 
+import Footer from '../containers/Footer';
+
 import { useEffect, useState } from 'react';
 import { db } from '../firebase';
 
@@ -29,6 +31,7 @@ function Bags() {
         <div>
           <HeaderBags />
 		  <ProductList products={isDatabaseLoaded ? products : mockProducts} />
+          <Footer />
         </div>
       </>
   )

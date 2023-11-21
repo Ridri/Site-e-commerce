@@ -2,6 +2,7 @@ import Navigation from '../containers/Navigation';
 import HeaderMen from '../containers/HeaderMen';
 import ProductList from '../containers/ProductList';
 import { mockProducts } from '../db/productsDB';
+import Footer from '../containers/Footer';
 
 import { useEffect, useState } from 'react';
 import { db } from '../firebase';
@@ -29,6 +30,7 @@ function Men() {
       <div>
         <HeaderMen />
 		<ProductList products={isDatabaseLoaded ? products : mockProducts} />
+        <Footer />
       </div>
      </>
      
